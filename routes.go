@@ -36,4 +36,16 @@ var routes = Routes{
 		"/todos/{todoId}",
 		TodoShow,
 	},
+	Route{
+		"PersonIndex",
+		"GET",
+		"/people",
+		PersonIndex,
+	},
+	Route{
+		"PersonShow",
+		"GET",
+		"/people/{personId}",
+		PersonShow,
+	},
 }
